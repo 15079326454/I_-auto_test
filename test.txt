@@ -8,3 +8,5 @@ is那就思思
 >>>>>>> mergedemo
 
 这是合并后需要保存的内容
+
+version1.1
