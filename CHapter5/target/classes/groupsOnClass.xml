@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<suite name="group">
+    <!--    <test name="runAll">-->
+    <!--        <classes>-->
+    <!--            <class name="com.zlq.testng.groups.GroupOnClass1"/>-->
+    <!--            <class name="com.zlq.testng.groups.GroupOnClass2"/>-->
+    <!--            <class name="com.zlq.testng.groups.GroupOnClass3"/>-->
+    <!--        </classes>-->
+    <!--    </test>-->
+    <test name="onlyRunStu">
+        <groups>
+            <run>
+                <!--指定需要执行的分组里的方法-->
+                <include name="teacher"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.zlq.testng.groups.GroupOnClass1"/>
+            <class name="com.zlq.testng.groups.GroupOnClass2"/>
+            <class name="com.zlq.testng.groups.GroupOnClass3"/>
+        </classes>
+    </test>
+</suite>
